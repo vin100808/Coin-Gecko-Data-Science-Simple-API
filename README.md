@@ -1,1 +1,1 @@
-# Coin-Gecko-Data-Science-Simple-API-
+# Coin-Gecko-Data-Science-Simple-API
