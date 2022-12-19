@@ -26,3 +26,14 @@ Your local university's Raptors fan club maintains a register of its active memb
 Given the file `currentMem`, Remove each member with a 'no' in their Active column. Keep track of each of the removed members and append them to the `exMem` file. Make sure that the format of the original files in preserved. (*Hint: Do this by reading/writing whole lines and ensuring the header remains* )
 Run the code block below prior to starting the exercise. The skeleton code has been provided for you. Edit only the `cleanFiles` function.
 
+### Text Analysis
+
+You have been recruited by your friend, a linguistics enthusiast, to create a utility tool that can perform analysis on a given piece of text. Complete the class 'analysedText' with the following methods -
+
+- Constructor (__init__) - This method should take the argument `text`, make it lower case, and remove all punctuation. Assume only the following punctuation is used: period (.), exclamation mark (!), comma (,) and question mark (?). Assign this newly formatted text to a new attribute called `fmtText`.
+- freqAll - This method should create and **return** dictionary of all unique words in the text, along with the number of times they occur in the text. Each key in the dictionary should be the unique word appearing in the text and the associated value should be the number of times it occurs in the text. Create this dictionary from the `fmtText` attribute.
+- freqOf - This method should take a word as an argument and **return** the number of occurrences of that word in `fmtText`.
+
+The skeleton code has been given to you. Docstrings can be ignored for the purpose of the exercise.
+*Hint: Some useful functions are `replace()`, `lower()`, `split()`, `count()`*
+
